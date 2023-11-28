@@ -34,4 +34,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+.navbar-nav .nav-link {
+  color: black !important;
+}
 </style>

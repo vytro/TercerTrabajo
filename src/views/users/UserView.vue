@@ -73,10 +73,10 @@ export default {
             <td>{{ user.age }}</td>
             <td>{{ user.birthDay }}</td>
             <td>
-              <RouterLink :to="{ path: '/users/' + user.id + '/edit' }" class="btn btn-success">
+              <RouterLink :to="{ path: '/users/' + user.id + '/edit' }" class="btn btn-success" style="margin-right: 10px;">
                 Edit
               </RouterLink>
-              <button type="button" @click="deleteUserById(user.id)" class="btn btn-danger">
+              <button type="button" @click="deleteUserById(user.id)" class="btn btn-danger" style="margin-left: 10px;">
                 Delete
               </button>
             </td>
